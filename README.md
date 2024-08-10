@@ -31,4 +31,3 @@ If you use the stVCR, please cite
 
 
 # Highlights of stVCR:
----
