@@ -1,6 +1,6 @@
-<center class=img>
+<div align=center>
 <img src='./docs/logo.png' width="60%" >
-</center>
+</div>
 
 # stVCR: Reconstructing spatiotemporal dynamics of cell development using optimal transport
 
