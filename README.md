@@ -4,6 +4,9 @@
 
 # stVCR: Spatiotemporal dynamics of single cells
 
+# Highlights of stVCR:
+## Generate vivid “videos” by users directly
+* Axolotl brain regeneration
 <div align=center>
 <img src='./docs/video_S5_ARTISTA.gif' width="60%" >
 </div>
@@ -32,6 +35,3 @@ If you use the stVCR, please cite
 >   publisher={Cold Spring Harbor Laboratory}
 > }
 > ```
-
-
-# Highlights of stVCR:
