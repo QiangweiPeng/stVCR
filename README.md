@@ -13,7 +13,7 @@
 
 * 3D Drosophila embryo development
 <div align=center>
-<img src='./docs/video_S9_Drosophila3D.gif' width="100%" >
+<img src='./docs/video_S9_Drosophila3D.gif' width="60%" >
 </div>
 
 ## Abstract
