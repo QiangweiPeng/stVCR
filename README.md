@@ -6,12 +6,12 @@
 
 ## Highlights of stVCR:
 ### Generate vivid “videos” by users directly
-* Axolotl brain regeneration
+* **Axolotl brain regeneration**
 <div align=center>
 <img src='./docs/video_S5_ARTISTA.gif' width="100%" >
 </div>
 
-* 3D Drosophila embryo development
+* **3D Drosophila embryo development**
 <div align=center>
 <img src='./docs/video_S9_Drosophila3D.gif' width="60%" >
 </div>
