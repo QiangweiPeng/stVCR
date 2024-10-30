@@ -1,8 +1,8 @@
 <div align=center>
-<img src='./docs/logo.png' width="60%" >
+<img src='./docs/logo.png' width="40%" >
 </div>
 
-# stVCR: Spatiotemporal dynamics of single cells
+# Spatiotemporal dynamics of single cells
 
 ## Highlights of stVCR:
 ### Generate vivid “videos” by users directly
