@@ -4,6 +4,10 @@
 
 # stVCR: Spatiotemporal dynamics of single cells
 
+<div align=center>
+<img src='./docs/video_S5_ARTISTA.gif' width="60%" >
+</div>
+
 # Abstract
 Time-series spatial transcriptome data with single-cell resolution provide an opportunity to study cell differentiation, proliferation and migration in physical space over time. Due to the destructive nature of sequencing,  reconstruction of spatiotemporal dynamics from data remains challenging. Especially, the inference of migration in physical space remains a difficult task, as samples obtained at different temporal snapshots might not be in the same coordinate system due to the difference of biological replicates. Here we developed stVCR, a generative deep learning model, which integrates the dynamical optimal transport (OT) with the unbalanced setting, the density matching invariant to rigid body transformations as well as priors to model known biology and preserve spatial structure. stVCR achieves the end-to-end simultaneous reconstruction of continuous cell differentiation, proliferation, physical space migration, and spatial coordinates alignment from spatial transcriptome snapshots. In addition, stVCR allows the interpretable study of complex interactions between cell phenotype transition, spatial migration and proliferation. Through benchmarking on both simulation data and real datasets, we validated the effectiveness and robustness of stVCR and demonstrated its advantages over static OT or linear interpolation methods.  We applied stVCR to dissect spatiotemporal dynamics underlying axolotl brain regeneration and 3D Drosophila embryo development.
 <div align=center>
