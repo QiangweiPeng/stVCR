@@ -1,30 +1,44 @@
 <div align=center>
-<img src='./docs/logo.png' width="40%" >
+<img src='./docs/source/_static/logo.png' width="50%" >
 </div>
 
-# Spatiotemporal dynamics of single cells
+##
+
+[![GitHub stars](https://img.shields.io/github/stars/QiangweiPeng/stVCR?style=flat&logo=github&color=pink)](https://github.com/QiangweiPeng/stVCR/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/QiangweiPeng/stVCR?logo=git)](https://github.com/QiangweiPeng/stVCR/commits/main)
+<!--
+[![GitHub forks](https://img.shields.io/github/forks/QiangweiPeng/stVCR?style=flat&logo=github)](https://github.com/QiangweiPeng/stVCR/network)
+[![GitHub issues](https://img.shields.io/github/issues/QiangweiPeng/stVCR?style=flat)](https://github.com/QiangweiPeng/stVCR/issues)
+[![GitHub license](https://img.shields.io/github/license/QiangweiPeng/stVCR)](https://github.com/QiangweiPeng/stVCR/blob/main/LICENSE)
+-->
+
+## **stVCR**: Spatiotemporal dynamics of single cells
+Just like how our brains can stitch together a burst of some photos into a smooth video, stVCR reconstructs the hidden movie behind spatial transcriptomics snapshots. Given a few well-timed frames of cellular life, it reveals how each cell migrates, divides, dies, or rewires its gene expression—frame by frame. No microscope can film this directly, but with stVCR, you get a front-row seat to the drama of development, one invisible scene at a time.
+<div align=center>
+<img src='./docs/source/_static/figure1.png' width="100%" >
+</div>
 
 ## Highlights of stVCR:
-### Generate vivid “videos” by users directly
-* **Axolotl brain regeneration**
-<div align=center>
-<img src='./docs/video_S5_ARTISTA.gif' width="100%" >
-</div>
+* Generate vivid “videos” by users directly
+  * **Axolotl brain regeneration**
+    <div align=center>
+    <img src='./docs/source/_static/video_S5_ARTISTA.gif' width="100%" >
+    </div>
 
+  * **3D Drosophila embryo development**
+    <div align=center>
+    <img src='./docs/source/_static/video_S9_Drosophila3D.gif' width="60%" >
+    </div>
 
-* **3D Drosophila embryo development**
-<div align=center>
-<img src='./docs/video_S9_Drosophila3D.gif' width="60%" >
-</div>
+* Interpolation and prediction of unobserved data
 
-## Abstract
-Time-series spatial transcriptome data with single-cell resolution provide an opportunity to study cell differentiation, proliferation and migration in physical space over time. Due to the destructive nature of sequencing,  reconstruction of spatiotemporal dynamics from data remains challenging. Especially, the inference of migration in physical space remains a difficult task, as samples obtained at different temporal snapshots might not be in the same coordinate system due to the difference of biological replicates. Here we developed stVCR, a generative deep learning model, which integrates the dynamical optimal transport (OT) with the unbalanced setting, the density matching invariant to rigid body transformations as well as priors to model known biology and preserve spatial structure. stVCR achieves the end-to-end simultaneous reconstruction of continuous cell differentiation, proliferation, physical space migration, and spatial coordinates alignment from spatial transcriptome snapshots. In addition, stVCR allows the interpretable study of complex interactions between cell phenotype transition, spatial migration and proliferation. Through benchmarking on both simulation data and real datasets, we validated the effectiveness and robustness of stVCR and demonstrated its advantages over static OT or linear interpolation methods.  We applied stVCR to dissect spatiotemporal dynamics underlying axolotl brain regeneration and 3D Drosophila embryo development.
-<div align=center>
-<img src='./docs/figure1.png' width="100%" >
-</div>
+* Revealing the interactions among gene expression, migration and proliferation in dynamics
+
+* Generate the developmental lineage even at unobserved time points
+
 
 ## Citation
-stVCR: Reconstructing spatiotemporal dynamics of cell development using optimal transport
+stVCR: Spatiotemporal dynamics of single cells
 
 Qiangwei Peng, Peijie Zhou*, Tiejun Li*
 
@@ -41,3 +55,9 @@ If you use the stVCR, please cite
 >   publisher={Cold Spring Harbor Laboratory}
 > }
 > ```
+
+## News
+* 6/2/2024: The preprint of stVCR has been released.
+
+## Contribution
+If you would like to contribute to the development of stVCR, please contact QiangWei Peng at qiangwei_peng@stu.pku.edu.cn or qiangweipeng123@gmail.com.
