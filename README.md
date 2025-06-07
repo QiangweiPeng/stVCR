@@ -18,6 +18,9 @@ Just like how our brains can stitch together a burst of some photos into a smoot
 <img src='./docs/source/_static/figure1.png' width="100%" >
 </div>
 
+## Installation
+The stVCR paper is currently under peer review. We will release the code to the public as soon as possible.
+
 ## Highlights of stVCR:
 * Generate vivid “videos” by users directly
   * **Axolotl brain regeneration**
@@ -60,4 +63,4 @@ If you use the stVCR, please cite
 * 6/2/2024: The preprint of stVCR has been released.
 
 ## Contribution
-If you would like to contribute to the development of stVCR, please contact QiangWei Peng at qiangwei_peng@stu.pku.edu.cn or qiangweipeng123@gmail.com.
+If you would like to contribute to the development of stVCR, please contact Qiangwei Peng at qiangwei_peng@stu.pku.edu.cn or qiangweipeng123@gmail.com.
