@@ -50,8 +50,8 @@ Qiangwei Peng, Peijie Zhou*, Tiejun Li*
 If you use the stVCR, please cite
 > ```
 > @article{peng2024stvcr,
->   title={stVCR: Reconstructing spatio-temporal dynamics of cell development using optimal transport},
->   author={APeng, Qiangwei and Zhou, Peijie and Li, Tiejun},
+>   title={stVCR: Spatiotemporal dynamics of single cells},
+>   author={Peng, Qiangwei and Zhou, Peijie and Li, Tiejun},
 >   journal={bioRxiv},
 >   pages={2024--06},
 >   year={2024},
