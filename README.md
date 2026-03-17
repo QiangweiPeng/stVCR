@@ -2,6 +2,10 @@
 <img src='./docs/source/_static/logo.png' width="50%" >
 </div>
 
+<div align=center>
+<h2> Enjoying stVCR? Help us grow by clicking the ⭐ button!</h2>
+</div>
+
 ##
 [![Nature Methods](https://img.shields.io/badge/Published%20in-Nature%20Methods-0077b6?style=flat&logo=nature)](https://doi.org/10.1038/s41592-026-03010-3)
 [![GitHub stars](https://img.shields.io/github/stars/QiangweiPeng/stVCR?style=flat&logo=github&color=pink)](https://github.com/QiangweiPeng/stVCR/stargazers)
